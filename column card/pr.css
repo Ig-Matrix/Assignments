@@ -1,0 +1,12 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: 40% 30% 30%;
+    gap: 1em;
+}
+.wrapper div{
+    background-color: lightgrey;
+    padding: 1em;
+}
+.wrapper > div:nth-child(odd){
+    background-color: #ddd;
+}

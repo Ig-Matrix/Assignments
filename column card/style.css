@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div a{
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100vw;
+    min-height: 100vh;
+}
+.container{
+    display: flex;
+    width:1440px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    line-height: 1.5;
+    font-size: 15px;
+   
+}
+.content{
+    padding: 22px;
+}
+.content h1{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    margin: 20px 0;
+}
+.box{
+    width: 310px;
+    min-height: 550px;
+    padding: 20px;
+}
+.box1{
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+.box2{
+    background-color: hsl(184, 100%, 22%);
+}
+.box3{
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+.content p{
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-right: 25px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.content button{
+    margin: 80px 0px;
+    padding:16px 36px;
+    border-radius: 30px;
+    border-style: none;
+    cursor: pointer;
+    background-color: hsl(0, 0%, 95%) ;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.btn1{
+    color: hsl(31, 77%, 52%);
+}
+.btn2{
+    color:hsl(184, 100%, 22%);
+}
+.btn3{
+    color:hsl(179, 100%, 13%);
+}
+button:hover{
+    background-color: inherit;
+    color: hsl(0, 0%, 95%);
+    border: 3px solid hsl(0, 0%, 95%);
+    transition: all 0.4s ease-in-out;
+}
+@media  only screen and (max-width:600px){
+    .container{
+        flex-direction: column;
+    }
+    .box1{
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    } 
+    .box3{
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    } 
+}
