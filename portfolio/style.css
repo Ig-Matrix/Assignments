@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    color: #fff;
+}
+body{
+    background-color: #101010;
+}
+header{
+    width: 100%;
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: black; */
+}
+header span span, .about-text span{
+    color: #f9004d;
+}
+.container header span{
+    font-family: 'Squada One';font-size: 32px;
+
+}
+
+.container header span span{
+    font-family: 'Pacifico';font-size: 22px;
+}
+header nav a{
+    margin-left: .3rem;
+    text-decoration: none;
+    color: inherit;
+}
+header nav a:hover{
+    color: #f9004d;
+    transition: .4s ease-in-out;
+}
+main .hero{
+    padding: 60px 30px;
+    height: 50vh;
+	width: 80%;
+    margin: auto;
+    align-content: center;
+    justify-content: center;
+}
+main .hero div{
+    text-align: left;
+    
+}
+.hero h1{
+    margin: 1rem 0 1rem;
+    font-size: 3rem;
+}
+.hero h3{
+    font-size: 1.5rem;
+    margin-bottom: 5rem;
+}
+.hero h4{
+    color: #fcfc;
+    letter-spacing: .3rem;
+}
+.aboutme, .services, .skills{
+    width: 100%;
+    padding: 8rem 0;
+    background-color: #191919;
+    overflow: hidden;
+}
+.aboutme img{
+    width: 400px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+.aboutme .about-text{
+    width: 300px;
+    text-align: center;
+}
+.aboutme .about{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    flex-direction:column;
+
+}
+.about-text h2{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+.about-text h5{
+    letter-spacing: .3rem;
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+}
+.about-text p{
+    max-width: 500px;
+    color: #fcfc;
+	line-height: 28px;
+	font-size: 18px;
+	margin-bottom: 35px;
+}
+.project{
+    background-color: #101010;
+    width: 100%;
+    padding: 8rem 0;
+}
+.skills{
+    background-color: #101010;
+}
+.title h2{
+    font-size: 2rem;
+    width: 11rem;
+    margin: 2rem auto;
+}
+.skill-title .skill{
+    min-width:400px;
+    text-align: left;
+}
+.pra p {
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.4;
+    margin-bottom: 1.7rem;
+    color: #fcfc;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: .3s;
+    border: 2px solid #f9004d;
+}
+.box .cards{
+    background-color:#101010;
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding:20px 35px;
+    background-color: #191919;
+    border-radius: 1rem;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.box .skill-card{
+    min-height: 520px;
+}
+.box #crud{
+    min-height: 450px;
+}
+.skill-card ol li{
+    list-style-type: none;
+}
+.cardss ol li{
+    list-style-type: square;
+    text-align: left;
+    padding: 5px 1px;
+    font-size: 22px;
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0;
+    color: #f9004d;
+}.card h5{
+    font-size: 1.5rem;
+    margin-bottom: .8rem;
+}
+.card p a{
+    background-color: #f9004d;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.card p a:hover{
+    background-color: transparent;
+    border:2px solid #f9004d;
+    cursor: pointer;
+}
+
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: #191919;
+    align-items: center;
+    justify-content: center;
+
+}
+footer p:nth-child(1){
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+footer p:nth-child(2){
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 1.4;
+}
+.socials{
+    display: flex;
+}
+.socials a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9004d;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+.socials a:hover{
+    transform: scale(1.3);
+    transition: .3s;
+}
+.end{
+    position: absolute;
+    color: #f9004d;
+    bottom: 35px;
+    font-size: 14px
+}
